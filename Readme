@@ -1,0 +1,14 @@
+
+Please follow the below steps :
+1) Create an aws account
+2) Install python
+3) Install pip boto3
+4) Install aws cli
+5) Create a security access key ID and secrete access key in IAM console (Access management), copy and paste
+   for future use.
+6) Run aws cli command from terminal/bash. It will ask for the access key and secrete key and provide the default
+   region. the region name can find it under aws account.
+7) It is all set up and then run this python script.
+
+Please note that there are sleep time added in between to get profile, instance,
+and volumes available for further processing.
